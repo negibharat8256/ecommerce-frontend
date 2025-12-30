@@ -1,16 +1,94 @@
-# React + Vite
+# 🛒 E-Commerce Frontend Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern e-commerce frontend built with **React**, featuring **auth-protected routes**, **cart & wishlist management**, **dark mode**, and a fully **responsive UI**.
 
-Currently, two official plugins are available:
+This project focuses on real-world frontend architecture and user experience without relying on a backend.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 🚀 Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- 🔐 Authentication flow (mocked)
+- 🔒 Protected routes (Cart & Wishlist)
+- 🛍 Product listing & product details
+- 🛒 Add to cart with visual feedback
+- ❤️ Wishlist functionality
+- 🌗 Light / Dark mode toggle
+- 📱 Fully responsive (mobile-first)
+- 🍔 Animated mobile navigation menu
+- 🔔 Toast notifications for UX feedback
+- 🔁 Redirect to intended page after login
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🧑‍💻 Tech Stack
+
+- React
+- React Router DOM
+- Context API
+- react-hot-toast
+- CSS (Flexbox & Media Queries)
+- Fake Store API
+
+---
+
+## 🔐 Authentication Flow
+
+- Authentication is mocked using **AuthContext**
+- Protected routes redirect unauthenticated users to Login
+- After login, users are redirected back to the intended page
+- Login state persists using `localStorage`
+
+> ⚠️ This project is frontend-focused and does not use real backend authentication.
+
+---
+
+## 📸 Screenshots
+
+All UI screenshots are available in the `/screenshots` folder, including:
+- Products page (Light & Dark mode)
+- Product details page
+- Cart page
+- Wishlist page
+- Login page
+- Mobile navigation view
+
+---
+
+## 📂 Project Structure
+
+src/
+├── components/
+│ ├── Navbar.jsx
+│ └── ProtectedRoute.jsx
+├── context/
+│ ├── AuthContext.jsx
+│ ├── CartContext.jsx
+│ ├── WishlistContext.jsx
+│ └── ThemeContext.jsx
+├── pages/
+│ ├── Home.jsx
+│ ├── Products.jsx
+│ ├── ProductDetails.jsx
+│ ├── Cart.jsx
+│ ├── Wishlist.jsx
+│ └── Login.jsx
+├── App.jsx
+└── main.jsx
+
+---
+
+## ⚙️ Getting Started
+
+### 1️⃣ Clone the repository
+
+git clone https://github.com/negibharat8256/ecommerce-frontend
+
+### 2️⃣ Install dependencies
+
+npm install
+
+3️⃣ Start the development server
+
+npm run dev
+

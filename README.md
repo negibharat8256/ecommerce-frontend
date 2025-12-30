@@ -82,7 +82,7 @@ src/
 
 ### 1️⃣ Clone the repository
 
-git clone https://github.com/negibharat8256/ecommerce-frontend
+git clone https://github.com/negibharat8256/ecommerce-frontend.git
 
 ### 2️⃣ Install dependencies
 

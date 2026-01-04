@@ -1,5 +1,7 @@
 E-COMMERCE FRONTEND APPLICATION
 
+🔗 Live Demo: https://ecommerce-frontend-beryl-two.vercel.app/
+
 A modern e-commerce frontend application built with React, featuring
 auth-protected routes, cart and wishlist management, dark mode,
 and a fully responsive UI.

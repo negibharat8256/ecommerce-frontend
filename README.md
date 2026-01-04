@@ -1,27 +1,34 @@
-# 🛒 E-Commerce Frontend Application
+E-COMMERCE FRONTEND APPLICATION
 
-A modern e-commerce frontend built with **React**, featuring **auth-protected routes**, **cart & wishlist management**, **dark mode**, and a fully **responsive UI**.
+A modern e-commerce frontend application built with React, featuring
+auth-protected routes, cart and wishlist management, dark mode,
+and a fully responsive UI.
 
-This project focuses on real-world frontend architecture and user experience without relying on a backend.
+This project focuses on real-world frontend architecture,
+UX patterns, and state management without relying on a backend.
 
----
 
-## 🚀 Features
+FEATURES
 
-- 🔐 Authentication flow (mocked)
-- 🔒 Protected routes (Cart & Wishlist)
-- 🛍 Product listing & product details
-- 🛒 Add to cart with visual feedback
-- ❤️ Wishlist functionality
-- 🌗 Light / Dark mode toggle
-- 📱 Fully responsive (mobile-first)
-- 🍔 Animated mobile navigation menu
-- 🔔 Toast notifications for UX feedback
-- 🔁 Redirect to intended page after login
+- Home Page
+  - Hero section with call-to-action
+  - Feature highlights (Browse, Wishlist, Cart, Secure Access)
+  - Entry point to the shopping flow
 
----
+- Authentication flow (mocked)
+- Protected routes (Cart & Wishlist)
+- Product listing using API data
+- Product details page
+- Add to cart with visual feedback
+- Wishlist functionality
+- Light / Dark mode toggle
+- Fully responsive (mobile-first)
+- Animated mobile navigation menu
+- Toast notifications for user feedback
+- Redirect to intended page after login
 
-## 🧑‍💻 Tech Stack
+
+TECH STACK
 
 - React
 - React Router DOM
@@ -30,22 +37,22 @@ This project focuses on real-world frontend architecture and user experience wit
 - CSS (Flexbox & Media Queries)
 - Fake Store API
 
----
 
-## 🔐 Authentication Flow
+AUTHENTICATION FLOW
 
-- Authentication is mocked using **AuthContext**
+- Authentication is mocked using AuthContext
 - Protected routes redirect unauthenticated users to Login
 - After login, users are redirected back to the intended page
-- Login state persists using `localStorage`
+- Login state persists using localStorage
 
-> ⚠️ This project is frontend-focused and does not use real backend authentication.
+NOTE:
+This project is frontend-focused and does not use real backend authentication.
 
----
 
-## 📸 Screenshots
+SCREENSHOTS
 
-All UI screenshots are available in the `/screenshots` folder, including:
+All UI screenshots are available in the "screenshots" folder, including:
+- Home page
 - Products page (Light & Dark mode)
 - Product details page
 - Cart page
@@ -53,42 +60,45 @@ All UI screenshots are available in the `/screenshots` folder, including:
 - Login page
 - Mobile navigation view
 
----
 
-## 📂 Project Structure
+PROJECT STRUCTURE
 
 src/
-├── components/
-│ ├── Navbar.jsx
-│ └── ProtectedRoute.jsx
-├── context/
-│ ├── AuthContext.jsx
-│ ├── CartContext.jsx
-│ ├── WishlistContext.jsx
-│ └── ThemeContext.jsx
-├── pages/
-│ ├── Home.jsx
-│ ├── Products.jsx
-│ ├── ProductDetails.jsx
-│ ├── Cart.jsx
-│ ├── Wishlist.jsx
-│ └── Login.jsx
-├── App.jsx
-└── main.jsx
+  components/
+    Navbar.jsx
+    ProtectedRoute.jsx
+  context/
+    AuthContext.jsx
+    CartContext.jsx
+    WishlistContext.jsx
+    ThemeContext.jsx
+  pages/
+    Home.jsx
+    Products.jsx
+    ProductDetails.jsx
+    Cart.jsx
+    Wishlist.jsx
+    Login.jsx
+  App.jsx
+  main.jsx
 
----
 
-## ⚙️ Getting Started
+GETTING STARTED
 
-### 1️⃣ Clone the repository
+1. Clone the repository
 
-git clone https://github.com/negibharat8256/ecommerce-frontend.git
+   git clone https://github.com/negibharat8256/ecommerce-frontend.git
 
-### 2️⃣ Install dependencies
+2. Install dependencies
 
-npm install
+   npm install
 
-3️⃣ Start the development server
+3. Start the development server
 
-npm run dev
+   npm run dev
 
+
+AUTHOR
+
+Bharat Negi
+Frontend Developer

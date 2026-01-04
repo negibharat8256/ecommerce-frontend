@@ -260,6 +260,67 @@ body.dark .price {
     font-weight: 600;
 }
 
+.home {
+    padding: 40px 20px;
+}
+
+.hero {
+    text-align: center;
+    max-width: 700px;
+    margin: 0 auto 60px;
+}
+
+.hero h1 {
+    font-size: 36px;
+    margin-bottom: 16px;
+}
+
+.hero p {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 24px;
+}
+
+.hero-btn {
+    padding: 12px 24px;
+    font-size: 16px;
+    background: #2563eb;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.features {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.feature-card {
+    padding: 20px;
+    border: 1px solid #e5e7eb;
+    border-radius: 8px;
+    text-align: center;
+}
+
+body.dark .hero p {
+    color: #cbd5f5;
+}
+
+body.dark .feature-card {
+    border-color: #1f2937;
+}
+
+.logo {
+  text-decoration: none;
+  color: inherit;
+}
+
+
+
 /* Products Page */
 .products-page {
     padding: 24px;

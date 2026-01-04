@@ -53,16 +53,18 @@ const Navbar = () => {
     };
   }, [open]);
 
- const handleLogout = () => {
-  logout();
-  navigate("/login");
-};
+  const handleLogout = () => {
+    logout();
+    navigate("/login");
+  };
 
 
   return (
     <nav className="navbar" ref={menuRef}>
       <div className="nav-left">
-        <h2>E-Shop</h2>
+        <NavLink to="/" className="logo">
+          <h2>E-Shop</h2>
+        </NavLink>
       </div>
 
       {/* ===== Desktop Links ===== */}

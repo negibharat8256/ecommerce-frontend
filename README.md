@@ -59,22 +59,22 @@ All UI screenshots are available in the "screenshots" folder, including:
 ![Home page](screenshots/home.png)
 
 ### Products page (Light & Dark mode)
-![Products page (Light & Dark mode)](screenshots/login.png)
+![Products page (Light & Dark mode)](screenshots/products-light.png)
 
 ### Product details page
-![Product details page](screenshots/dashboard.png)
+![Product details page](screenshots/products-details.png)
 
 ### Cart page
-![Users](screenshots/users.png)
+![Users](screenshots/cart.png)
 
 ### Wishlist page
-![Wishlist page](screenshots/settings.png)
+![Wishlist page](screenshots/wishlist.png)
 
 ### Login page
-![Login page](screenshots/settings.png)
+![Login page](screenshots/login.png)
 
 ### Mobile navigation view
-![Mobile navigation view](screenshots/settings.png)
+![Mobile navigation view](screenshots/mobile-menu.png)
 
 
 PROJECT STRUCTURE

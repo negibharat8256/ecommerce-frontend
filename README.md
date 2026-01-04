@@ -51,16 +51,30 @@ NOTE:
 This project is frontend-focused and does not use real backend authentication.
 
 
-SCREENSHOTS
+## 📸 Screenshots
 
 All UI screenshots are available in the "screenshots" folder, including:
-- Home page
-- Products page (Light & Dark mode)
-- Product details page
-- Cart page
-- Wishlist page
-- Login page
-- Mobile navigation view
+
+### Home page
+![Home page](screenshots/home.png)
+
+### Products page (Light & Dark mode)
+![Products page (Light & Dark mode)](screenshots/login.png)
+
+### Product details page
+![Product details page](screenshots/dashboard.png)
+
+### Cart page
+![Users](screenshots/users.png)
+
+### Wishlist page
+![Wishlist page](screenshots/settings.png)
+
+### Login page
+![Login page](screenshots/settings.png)
+
+### Mobile navigation view
+![Mobile navigation view](screenshots/settings.png)
 
 
 PROJECT STRUCTURE
